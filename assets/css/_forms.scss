@@ -1,0 +1,40 @@
+		#crmWebToEntityForm { // style web form from soho
+			margin: 0 !important;
+			padding: 0 !important;
+			table {
+				background: #f9f9f9 !important;
+				min-width: 300px !important;
+				max-width: 400px !important;
+				margin: 0 !important;
+				padding: 0 !important;
+				@media only screen and (min-width: 769px) {
+					min-width: 100% !important;
+				}
+				tr td {
+					display: block !important;
+					font-family: lato !important;
+					font-size: 16px !important;
+					min-width: 300px !important;
+					max-width: 480px !important;
+					@media only screen and (min-width: 769px) {
+						min-width: 100% !important;
+					}
+				}
+			}
+			input {
+				border-radius: 4px;
+			}
+			input[type="submit"] {
+				background: #2AB27B;
+				color: #fff !important;
+				font-size: 16px !important;
+				max-width: 35%;
+				float: left;
+			}
+			input[type="reset"] {
+				max-width: 17%;
+				margin-left: 16px;
+				float: left;
+				font-size: 16px !important;
+			}
+		}
